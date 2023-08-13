@@ -1,0 +1,44 @@
+ /* Reset some default styles */
+ body,
+ h1,
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Footer styles */
+ .footer {
+     background-color: #333;
+     color: white;
+     padding: 20px;
+ }
+
+ .footer-content {
+     max-width: 1200px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .footer p {
+     font-size: 14px;
+ }
+
+ .social-icons img {
+     width: 24px;
+     height: 24px;
+     margin-right: 10px;
+ }
+
+ /* Responsive styles */
+ @media (max-width: 768px) {
+     .footer-content {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .social-icons {
+         margin-top: 10px;
+     }
+ }
